@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/assets/numbers.png"
+      type="image/x-icon"
+    />
+    <title>Interesting Facts</title>
+  </head>
+  <body>
+    <header>
+      <ion-icon size="large" name="dice-sharp"></ion-icon>
+      <h1>Interesting facts about numbers and dates!</h1>
+      <ion-icon size="large" name="calendar-number-sharp"></ion-icon>
+    </header>
+
+    <main>
+      <section>
+        <div id="number"></div>
+
+        <p class="date">Type a random number!</p>
+        <span>
+          <input id="inputNumber" type="number" placeholder="Type a number" />
+          <button id="btn_number">Submit</button>
+        </span>
+      </section>
+
+      <section>
+        <div id="date"></div>
+
+        <p class="date">Type a random date!</p>
+
+        <span>
+          <input class="inputMonth" type="number" placeholder="Type Month" />
+          <input class="inputDay" type="number" placeholder="Type Day" />
+
+          <button id="btn_month">Submit</button>
+        </span>
+      </section>
+    </main>
+    <footer>
+      <a href="https://github.com/rich-dacan"
+        >Created in 21' by me! &reg; &copy;</a
+      >
+    </footer>
+
+    <script src="./src/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
